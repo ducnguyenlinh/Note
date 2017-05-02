@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.duclinh1610.android_note.AddActivity">
+    <TextView
+        android:id="@+id/tvDatePresent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_access_alarm_black"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Alarm"/>
+        <LinearLayout
+            android:id="@+id/layoutAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spnDate"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="30dp">
+
+            </Spinner>
+            <Spinner
+                android:id="@+id/spnTime"
+                android:layout_width="100dp"
+                android:layout_height="30dp">
+            </Spinner>
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_close_black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string-array name="arrDate">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Next Sunday</item>
+        <item>Other...</item>
+    </string-array>
+
+    <string-array name="arrTime">
+        <item>9:00</item>
+        <item>13:00</item>
+        <item>17:00</item>
+        <item>21:00</item>
+        <item>Other...</item>
+    </string-array>
+</resources>
